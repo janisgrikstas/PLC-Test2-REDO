@@ -1,0 +1,10 @@
+begin 
+varone [1] ; 
+vartwo [2] ; 
+varthree [4] ; 
+varfour [8] ; 
+watching ( varone == 1 ) { 
+vartwo = 2 ; 
+varthree = 3 ; 
+varfour = 349487 ; 
+} 

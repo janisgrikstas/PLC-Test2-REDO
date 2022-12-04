@@ -1,0 +1,14 @@
+begin  
+var [1] : 
+vartwo [3] ; 
+varone = 10 ; 
+vartwo = 100 ; 
+watching ( varone < vartwo ) { 
+    ++varone ; 
+} 
+compare ( varone === vartwo ) { 
+    varone = varone - vartwo ; 
+} 
+event { 
+    vartwo = 10 ; 
+}
